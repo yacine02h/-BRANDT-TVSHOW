@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>    BRANDT TVSHOW </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+   <header class="header">
+        <div class="container">
+            <h1 class="logo">
+                <i class="fas fa-film"></i>
+               BRANDT TVSHOW
+            </h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="ابحث عن فيلم...">
+                <button id="searchBtn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav-list">
+                <li><button class="nav-btn active" data-category="popular">الأكثر شعبية</button></li>
+                <li><button class="nav-btn" data-category="top_rated">الأعلى تقييماً</button></li>
+                <li><button class="nav-btn" data-category="upcoming">قريباً</button></li>
+                <li><button class="nav-btn" data-category="now_playing">يُعرض الآن</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Loading Spinner -->
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>جاري التحميل...</p>
+            </div>
+
+            <!-- Movies Grid -->
+            <div id="moviesGrid" class="movies-grid">
+                <!-- Movies will be inserted here -->
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-container">
+                <button id="loadMoreBtn" class="load-more-btn">تحميل المزيد</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Movie Modal -->
+    <div id="movieModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="movieDetails" class="movie-details">
+                <!-- Movie details will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 تطبيق الأفلام. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer> 
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
