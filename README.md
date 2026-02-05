@@ -1,4 +1,4 @@
-# 🎬 Movie Display App
+9# 🎬 Movie Display App
 
 A web development project that helps you master working with APIs forever!  
 This application displays movies using an external API with search and filtering features.
@@ -18,8 +18,8 @@ This application displays movies using an external API with search and filtering
 ## 🛠️ Technologies Used
 - HTML / CSS / JavaScript
 - React (optional)
-- Fetch API or Axios
-- External Movie API (TMDB or similar)
+- Fetch API 
+- External Movie API (TMDB )
 
 ---
 
@@ -32,7 +32,6 @@ This application displays movies using an external API with search and filtering
 ## 📦 What You Learn from This Project
 - How to work with REST APIs
 - Handling API keys securely
-- Fetching and parsing JSON data
 - Managing loading states and errors
 - Building real-world API-based projects
 
